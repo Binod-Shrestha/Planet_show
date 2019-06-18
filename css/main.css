@@ -1,0 +1,49 @@
+.container
+{
+    display:grid;
+    text-align:center;
+    font-family:arial;
+    border-radius:5pt;
+    background-color:light gray;
+    grid-template-areas:
+                        'header header'
+                        'solarSytem solarSytem'
+                        'planetList1 planetList1'
+                        'footer footer'
+}
+.header
+{
+    grid-area:header;
+    font-weight: bold;
+    color:black;
+    font-size:20pt;
+}
+.solarSytem
+{
+    grid-area:solarSystem;
+    background-color: yellow;
+}
+.planetList1
+{
+    grid-area: planetList1;
+}
+.footer
+{
+    grid-area: footer;
+    font-style:italic;
+    color:black;
+}
+a
+{
+    text-decoration: none;
+}
+button
+{
+    margin:2pt;
+    width:200pt;
+}
+#centerList
+{
+    color:red;
+    text-decoration:none;
+}
